@@ -1,3 +1,5 @@
+/* general styling */
+
 h1 {
   font-family: comfortaa, sans-serif;
   font-style: normal;
@@ -28,8 +30,18 @@ p {
   color: #30475e;
 }
 
+/* navigation bar */
+
 .store-logo {
   max-width: 80%;
+}
+
+/* hero section */
+
+#hero {
+  background-color: #30475e;
+  padding: 0;
+  text-align: center;
 }
 
 .hero-text {
@@ -37,16 +49,30 @@ p {
 }
 
 .btn {
-    margin: 15%;
+  margin: 10%;
 }
 
 .hero-picture {
   min-height: 100%;
+  margin: 0;
 }
+
+/* how it works */
 
 .how-it-works {
   margin: 2% auto;
   text-align: center;
+}
+
+#how-it-works-section {
+  background-color: white;
+  padding: 2% 15%;
+}
+
+#how-steps-img {
+  margin: 5% auto;
+  height: 80px;
+  display: block;
 }
 
 .how-steps-text {
@@ -54,9 +80,17 @@ p {
   margin: 0 5% 5% 5%;
 }
 
+/* features */
+
+#features {
+  background-color: #30475e;
+  text-align: center;
+  padding: 2% 10%;
+}
+
 .icon {
   color: white;
-  margin-top: 60%;
+  margin-top: 20%;
   margin-bottom: 0%;
 }
 
@@ -66,33 +100,12 @@ p {
 
 .features-text {
   color: white;
-  margin: 0 5%;
+  margin: 2% 5%;
 }
 
 .screens {
-    width:40%;
-    object-position: 0 75px;
-}
-
-#hero {
-  background-color: #30475e;
-  text-align: center;
-}
-
-#how-it-works {
-  background-color: white;
-  padding: 2% 10%;
-  margin: auto;
-}
-#how-steps-img {
-  margin: 5% auto;
-  height: 80px;
-  display: block;
-}
-
-#features {
-  background-color: #30475e;
-  text-align: center;
-padding-left: 10%;
-  margin: auto;
+  margin: 10%;
+  width: 40%;
+  /* object-position: 0 75px; */
+  transform: rotate(20deg);
 }
