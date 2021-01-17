@@ -139,12 +139,16 @@ p {
 
 .offers {
     background-color: #30475e;
-    padding: 2% 15%;
+    padding: 2% 10%;
     text-align: center;
 }
 
+.offers-title {
+    color: white;
+    margin-bottom: 2%;
+}
 .card {
-margin: 5%;
+margin: 2%;
 
 }
 
