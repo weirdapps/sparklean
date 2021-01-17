@@ -37,7 +37,7 @@ p {
 }
 
 .nav-text {
-margin-top: 6px;
+  margin-top: 6px;
 }
 
 /* hero section */
@@ -99,7 +99,7 @@ margin-top: 6px;
 }
 
 .download-image {
-    margin: 5%;
+  margin: 5%;
 }
 .screens {
   margin: 10%;
@@ -111,25 +111,25 @@ margin-top: 6px;
 /* testimonials */
 
 #testimonials {
-    text-align: center;
-    padding: 5% 20%;
+  text-align: center;
+  padding: 5% 20%;
 }
 
 .testimonials-image {
-    width: 100px;
-    border-radius: 50%;
-    margin: 15px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px;
 }
 
 .testimonials-text {
-    font-size: 2rem;
-    line-height: 1.5;
-    margin: 5%;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 5%;
 }
 
 /* footer */
 
 .footer {
-    height: 200px;
-    background-color: #30475e;
+  height: 200px;
+  background-color: #30475e;
 }
