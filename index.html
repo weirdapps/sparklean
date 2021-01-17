@@ -82,14 +82,11 @@
                 alt="playstore-logo"
             /></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Σύνδεση <span class="sr-only">(current)</span></a
-            >
-          </li>
-
           <li class="nav-item">
-            <a class="nav-link" href="#">Το καλάθι μου</a>
+            <a class="nav-text nav-link" href="#">Σύνδεση</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text nav-link" href="#">Το καλάθι μου</a>
           </li>
         </ul>
       </div>
@@ -97,8 +94,12 @@
 
     <div class="row" id="hero">
       <div class="col-lg-4 col-lg">
-        <h1 class="hero-text">Καλώς ήρθατε στην μοναδική εμπειρία καθαριστηρίου sparklean!</h1>
-        <button type="button" class="btn btn-primary btn-lg">Επιλογή ρούχων</button>
+        <h1 class="hero-text">
+          Καλώς ήρθατε στην μοναδική εμπειρία καθαριστηρίου sparklean!
+        </h1>
+        <button type="button" class="btn btn-primary btn-lg">
+          Επιλογή ρούχων
+        </button>
       </div>
       <div class="col-lg-8 col-lg">
         <img
@@ -147,20 +148,77 @@
       </div>
     </div>
 
-    <div class="row" id="features">
-      <div class="col-lg-3 col-lg features"> >
-        <i class="icon fas fa-check-circle fa-8x"></i>
-        <h3>Πανεύκολο</h3>
-        <p class="features-text">Από την άνεση και ασφάλεια του σπιτιού σου</p>
+    <div class="row" id="download">
+      <div class="col-lg-6 col-lg app-download">
+        <h3 class="download-text">
+          Κατέβασε την εφαρμογή και ξεκίνησε την παραγγελία σου τώρα!
+        </h3>
+        <img
+          class="download-image"
+          src="images/apple-app-store-white.svg"
+          alt="download on the app store"
+        />
+        <img
+          class="download-image"
+          src="images/google-play-store-white.svg"
+          alt="download on the play store"
+        />
       </div>
-      <div class="col-lg-3 col-lg features">
-        <i class="icon fas fa-bullseye fa-8x"></i>
-        <h3>Ποιοτικό</h3>
-        <p class="features-text">Η καλύτερη φροντίδα για τα ρούχα σου</p>
+      <div class="col-lg-6 col-lg app-download">
+        <img
+          src="images/mobile-screen.png"
+          alt="sparklean-mobile"
+          class="screens"
+        />
       </div>
-      <div class="col-lg-6 col-lg features">
-        <img src="images/mobile-screen.png" alt="sparklean-mobile" class="screens">
+    </div>
+
+    <div
+      id="carouselTestimonials"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="2000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row" id="testimonials">
+            <div class="col-lg-4 col-lg testimonials">
+              <img
+                class="testimonials-image"
+                src="images/georgem.png"
+                alt="George M"
+              />
+              <p class="testimonials-name">Γιώργος Μ.</p>
+            </div>
+            <div class="col-lg-8 col-lg testimonials">
+              <p class="testimonials-text">
+                Φανταστική εφαρμογή. Τα ρούχα μου μυρίζουν υπέροχα!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row" id="testimonials">
+            <div class="col-lg-4 col-lg testimonials">
+              <img
+                class="testimonials-image"
+                src="images/mariap.jpg"
+                alt="Maria P"
+              />
+              <p class="testimonials-name">Μαρία Π.</p>
+            </div>
+            <div class="col-lg-8 col-lg testimonials">
+              <p class="testimonials-text">
+                Στην ώρα τους και πεντακάθαρα όλα! Το συνιστώ ανεπιφύλακτα
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="footer">
+
     </div>
   </body>
 </html>
