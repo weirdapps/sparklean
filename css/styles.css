@@ -1,43 +1,17 @@
 /* general styling */
 
-h1 {
-  font-family: comfortaa, sans-serif;
-  font-style: normal;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 2;
+body {
   text-align: center;
-  color: white;
 }
 
-h3 {
-  font-family: comfortaa, sans-serif;
-  font-style: normal;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  color: #30475e;
-}
-
-h4 {
-  font-family: comfortaa, sans-serif;
-  font-style: normal;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  color: #30475e;
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
   font-family: comfortaa, sans-serif;
-  font-style: normal;
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  color: #30475e;
 }
 
 ul {
@@ -45,10 +19,6 @@ ul {
   margin-block-start: 1em;
   margin-block-end: 1em;
   padding-inline-start: 10px;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* navigation bar */
@@ -66,15 +36,18 @@ a {
 #hero {
   background-color: #30475e;
   padding: 0;
-  text-align: center;
 }
 
 .hero-text {
   margin: 10% auto;
+  font-size: 2.5rem;
+  line-height: 2;
+  color: white;
 }
 
 .btn {
   margin: 10%;
+  padding: 5% 10%;
 }
 
 .hero-picture {
@@ -84,14 +57,20 @@ a {
 
 /* how it works */
 
-.how-it-works {
-  margin: 2% auto;
-  text-align: center;
-}
-
 #how-it-works-section {
   background-color: white;
   padding: 2% 15%;
+}
+
+.how-it-works-title {
+  font-size: 2rem;
+  color: #30475e;
+}
+
+.how-it-works-moto {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #30475e;
 }
 
 #how-steps-img {
@@ -100,7 +79,14 @@ a {
   display: block;
 }
 
+.how-steps-step {
+  font-size: 2rem;
+  color: #30475e;
+}
+
 .how-steps-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
   color: #30475e;
   margin: 0 5% 5% 5%;
 }
@@ -109,7 +95,6 @@ a {
 
 #download {
   background-color: #30475e;
-  text-align: center;
   padding: 2% 10%;
 }
 
@@ -117,6 +102,9 @@ a {
   color: white;
   text-align: left;
   margin: 10% 5%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .download-image {
@@ -131,7 +119,6 @@ a {
 /* testimonials */
 
 #testimonials {
-  text-align: center;
   padding: 5% 20%;
 }
 
@@ -152,13 +139,14 @@ a {
 .offers {
   background-color: #30475e;
   padding: 2% 10%;
-  text-align: center;
 }
 
 .offers-title {
+  font-size: 2rem;
   color: white;
   margin-bottom: 2%;
 }
+
 .card {
   margin: 2%;
 }
@@ -168,11 +156,16 @@ a {
   margin: 5%;
 }
 
+.offer-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #30475e;
+}
+
 /* order now */
 
 .order-now {
   margin: auto;
-  text-align: center;
 }
 
 .order-button {
@@ -186,6 +179,7 @@ a {
   background-color: #30475e;
   padding: 2% 10%;
   margin: 0 auto;
+  text-align: left;
 }
 
 .footer-items {
@@ -194,7 +188,6 @@ a {
 
 .footer-links {
   color: white;
-  text-align: left;
   font-size: 1.5rem;
 }
 
