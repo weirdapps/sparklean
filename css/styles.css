@@ -21,14 +21,15 @@ h3 {
 }
 
 h4 {
-    font-family: comfortaa, sans-serif;
-    font-style: normal;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    color: #30475e;
-  }
+  font-family: comfortaa, sans-serif;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #30475e;
+}
+
 p {
   font-family: comfortaa, sans-serif;
   font-style: normal;
@@ -149,23 +150,22 @@ a {
 /* offers */
 
 .offers {
-    background-color: #30475e;
-    padding: 2% 10%;
-    text-align: center;
+  background-color: #30475e;
+  padding: 2% 10%;
+  text-align: center;
 }
 
 .offers-title {
-    color: white;
-    margin-bottom: 2%;
+  color: white;
+  margin-bottom: 2%;
 }
 .card {
-margin: 2%;
-
+  margin: 2%;
 }
 
 .offer-image {
-    height: 120px;
-    margin: 5%;
+  height: 120px;
+  margin: 5%;
 }
 
 /* order now */
